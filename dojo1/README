@@ -6,7 +6,7 @@ Segue mais ou menos como fizemos o projeto:
 
 Iniciamos o projeto com o comando rails e preparamos o ambiente, instalando as gems rspec-rails, remarkable_rails, ZenTest e RedGreen. Enquanto isso, o pessoal foi levantando os requisitos para nosso "negócio" (valeu pelo help Rafael!)
 
-Em seguida, executamos rake rspec para fazer o bootstrap de elementos rspec no projeto (tal como a criação do spec.opts e spec_helper) e, com ZenTest instalado, executamos o autospec, para que ele execute os testes automagicamente.
+Em seguida, executamos rake rspec para fazer o bootstrap de elementos rspec no projeto (tal como a criação do spec.opts e spec_helper) e, com ZenTest instalado, executamos o autospec, para que ele execute os testes automagicamente. Gostaria de lembrar que o Remarkable usado não foi o do GitHub, e sim do RubyForge, que segundo o pessoal, é mais atual, ou seja, gem install remarkable_rails e pronto.
 
 NOTA 1: O autospec roda todos os testes e depois espera até que algum arquivo seja alterado, executando o teste relacionado. Se tudo passar, o autospec roda toda a suíte de testes.
 
