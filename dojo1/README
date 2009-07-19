@@ -16,6 +16,8 @@ require 'autotest/fsevent'
 
 NOTA 3: Ainda no Mac, temos a gem autotest-growl, que dá suporte ao Growl nos testes. Bem legal.
 
+NOTA 4: Usamos no evento a notificação "vanilla" de testes do RSpec. No repositório encontra-se uma opção no rspec.opts que melhora o output do rspec, deixando a coisa mais legal. A opção é --format specdoc (troque o progress por specdoc).
+
 Depois de tudo, começamos trabalhando no model Group, que é bem simples, basicamente usando Remarkable para testar a associação. Em seguida, focamos no model User. 
 
 Com as várias dicas dadas pelo pessoal lá, acredito que aprendemos bastante.
